@@ -9,11 +9,12 @@ Tested on
 * ZTE F102 H3G_GB_P607C3V2.0.0B04-S
 * ZTE F107 H3G_GB_P607C5V1.0.0B12-S
 * ZTE F116 MOB_EG_P640A30V1.0.0B04-S
-
+* ZTE F100 ORG_MD_P607C4V1.0.0B06-S
+* ZTE F160 ORG_PL_P622F2V1.0.0B05-S
 
 [VIDEO UNLOCK ZTE RIO II aka JACK 3G](https://youtu.be/fIWjqIO-FrA "UNLOCK ZTE RIO II aka JACK 3G")
 
-# How to compile shellcode
+## How to compile shellcode
 you can use a raspberry pi3:
  >as shellcode.s -mlittle-endian -o zte && objcopy -O binary zte zte_shellcode.bin
 

@@ -255,6 +255,10 @@ def getOffsets(firmware_version):
          return [0x2B92088,0xE35B53,0x88E581,0x88E6B7,0x88E643,0x88E5BB,0x2FF0F00,BUFFER_ADR]
     elif "H3G_GB_P607C5V1.0.0B12-S" in firmware_version:
          return [0x2ACEF74,0x2B0E5B,0x1B5F31D,0x1B5F453,0x1B5F3DF,0x1B5F357,0x2FF0F00,BUFFER_ADR]
+    elif "ORG_MD_P607C4V1.0.0B06-S" in firmware_version:
+         return [0x1DDD1E8,0xD35BB7,0x69BD01,0x69BE37,0x69BDC3,0x69BD3B,0x2FF0F00,BUFFER_ADR]
+    elif "ORG_PL_P622F2V1.0.0B05-S" in firmware_version:
+         return [0x168C274,0x5DB6EB,0x101143D,0x1011573,0x10114FF,0x1011477,0x2FF0F00,BUFFER_ADR]
     else:
         print("Firmware not supported")
         exit(-1)
